@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/ProfileStyle.css' %}">
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="header">
+            <div class="left">
+                <h3><a href="{% url 'index' %}"> DjangoSushi</a></h3>
+            </div>
+        </div>
+
+{#    <a href="{% url 'index' %}">На главную</a>#}
+    <div class="profile">
+        <table class="table">
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                username: {{ user }}
+                {% if profile.avatar.url  %}
+                <img src="{{ profile.avatar.url }}" class="profileAvatar">
+                {% endif %}
+                <table class="table">
+                    {{ form }}
+                </table>
+                <input type="submit" value="ok" class="button" onclick="alert(a)">
+            </form>
+        </table>
+    </div>
+</body>
+</html>

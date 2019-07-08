@@ -1,0 +1,210 @@
+body {
+    /*background-color: white;*/
+    background-image: url('../../../media/uploads/products/back.jpg');
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header
+{
+    background-color: #2419B2;
+    opacity: 0.95;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    overflow: no-display;
+    z-index: 100;
+}
+
+.right
+{
+    float: right;
+    padding-right: 10px;
+
+}
+
+.header .logout
+{
+  margin-left: 10px;
+}
+
+.accountHello
+{
+    display: inline-block;
+    color: white;
+    /*border: solid black;*/
+    /*border-width: 1px;*/
+    /*margin: 0px;*/
+    /*border-radius: 10px;*/
+    /*line-height: 25px;*/
+    /*width: auto;*/
+    /*padding: 2px;*/
+}
+.accountHello a
+{
+    color: lightgray;
+}
+.accountHello a:visited
+{
+    color: white;
+}
+.right .logout
+{
+    color: lightcyan;
+}
+
+.left
+{
+    color: white;
+}
+
+.header a
+{
+    padding-right: 10px;
+}
+
+a
+{
+    color: darkviolet;
+    text-decoration: none;
+}
+a:visited
+{
+    color: blue;
+}
+
+
+.left
+{
+    float: left;
+    line-height: inherit;
+    margin-left: 3%;
+}
+
+h3
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu
+{
+    /*display: inline-block;*/
+    /*float: left;*/
+    background-color: lightskyblue;
+    border:solid whitesmoke;
+    border-width: 1px 0px 0px 0px ;
+    width: 20%;
+    height: 1000px;
+    position: fixed;
+    left: 0;
+    top: 40px;
+}
+
+.menu li
+{
+    padding-left: 10px;
+    color: black;
+    list-style: none;
+}
+
+.menu h1
+{
+    margin-left: 25%;
+    margin-top: 5px;
+}
+
+.menu a
+{
+    margin-left: 25%;
+}
+
+.bodyElem
+{
+    float: left;
+    height: 1200px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 75%;
+}
+
+.prodBlock
+{
+    border:solid black 1px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: lightgoldenrodyellow;
+    width: min-content;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.prodBlock p
+{
+    font-size: 17px;
+    padding-left: 10px;
+
+}
+
+.prodBlock img
+{
+    border: solid black;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 8px 8px 0px 0px;
+    width: 300px;
+    height: 210px;
+}
+
+.prodBlock .name
+{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.prodBlock .weight
+{
+    display: inline-block;
+    float:right;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.prodBlock .about
+{
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 60px;
+}
+.prodBlock .price
+{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.pagination{
+    list-style: none;
+    margin-left: 30%;
+    color: black;
+    font-size: 17px;
+}
+
+.pagination li
+{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: deepskyblue;
+    color: black;
+    padding: 2px;
+}
+
+.pagination li:visited
+{
+    color: black;
+}

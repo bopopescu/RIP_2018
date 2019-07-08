@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/LoginStyle.css' %}">
+    <meta charset="UTF-8">
+    <title>LogIn</title>
+</head>
+<body>
+<form method="post">
+  {% block content %}
+      <div class="logTab">
+      <h2>Login</h2>
+      <form method="post" action=".">
+        {% csrf_token %}
+        <ul class="formFields">
+            <li>{{ form.username.label_tag }}<div class="formField" id="name" onchange="validate(0)">{{ form.username }}</div></li>
+            <li>{{ form.password.label_tag }}<div class="formField" id="pass" onchange="validate(1)">{{ form.password }}</div></li>
+        </ul>
+        <button type="submit" class="button">Login</button>
+      </form>
+      <div class="registration">Не зарегистрированы?<a href="{% url 'Registration' %}">Регистрация</a></div>
+      </div>
+  {% endblock %}
+  <script src="{% static 'js/validationLog.js' %}"></script>
+</form>
+</body>
+</html>

@@ -1,0 +1,98 @@
+.header
+{
+    background-color: #2419B2;
+    opacity: 0.95;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    overflow: no-display;
+    z-index: 100;
+}
+
+.right
+{
+    float: right;
+    padding-right: 10px;
+
+}
+
+.header .logout
+{
+  margin-left: 10px;
+}
+
+.accountHello
+{
+    display: inline-block;
+    color: white;
+
+}
+.accountHello a
+{
+    color: lightgray;
+}
+.right .logout
+{
+    color: lightcyan;
+}
+
+.left
+{
+    color: white;
+    float: left;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-left: 3%;
+
+}
+
+h3
+{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.left a
+{
+    color: white;
+    text-decoration: none;
+}
+.header a
+{
+    padding-right: 10px;
+}
+
+.Profile
+{
+    background-color: lightcyan;
+    border-radius: 8px;
+    width: min-content;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.Profile li
+{
+    margin-top: 10px;
+    list-style: none;
+    width: 200px;
+
+}
+
+.Profile .input{
+    display: inline-block;
+    width: min-content;
+}
+
+.button
+{
+    margin-left: 20%;
+    width: 100px;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 8px;
+}

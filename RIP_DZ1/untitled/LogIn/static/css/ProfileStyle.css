@@ -1,0 +1,131 @@
+.header
+{
+    background-color: #2419B2;
+    opacity: 0.95;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    overflow: no-display;
+    z-index: 100;
+}
+
+.right
+{
+    float: right;
+    padding-right: 10px;
+
+}
+.left a{
+    color: white;
+}
+
+.left a:visited
+{
+    color: white;
+}
+.header .logout
+{
+  margin-left: 10px;
+}
+
+.accountHello
+{
+    display: inline-block;
+    color: white;
+    /*border: solid black;*/
+    /*border-width: 1px;*/
+    /*margin: 0px;*/
+    /*border-radius: 10px;*/
+    /*line-height: 25px;*/
+    /*width: auto;*/
+    /*padding: 2px;*/
+}
+.accountHello a
+{
+    color: lightgray;
+}
+.right .logout
+{
+    color: lightcyan;
+}
+
+.left
+{
+    color: white;
+}
+
+.header a
+{
+    padding-right: 10px;
+}
+
+a
+{
+    color: darkviolet;
+    text-decoration: none;
+}
+a:visited
+{
+    color: blue;
+}
+
+.left
+{
+    float: left;
+    line-height: inherit;
+    margin-left: 3%;
+}
+
+h3
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile
+{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin-left:3%;
+    margin-top: 5%;
+    width: min-content;
+    padding: 30px;
+}
+
+.button {
+    margin-left: 19%;
+    width: 100px;
+    height: 25px;
+    line-height: 10px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.profileAvatar
+{
+    display: block;
+    width: 250px;
+    height: 200px;
+    border-radius: 14px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+}
+
+.table
+{
+    margin-top: 5px;
+}
+
+.about
+{
+    border-radius: 8px;
+    padding-left: 5px;
+}
+
+/*.avatar{*/
+    /*border-radius: 8px;*/
+/*}*/

@@ -1,0 +1,66 @@
+a
+{
+    margin-top:20px;
+}
+
+.logTab
+{
+    /*border:1px solid black;*/
+    width: 45%;
+    margin:auto;
+    padding-left: 10px;
+}
+
+.logTab h2
+{
+    margin-left: 30%;
+}
+.registration
+{
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.formFields
+{
+    font-size: 20px;
+}
+
+.formFields li
+{
+    list-style: none;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.formField
+{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.formField.err::after{
+    margin-left: 10px;
+    font-size: 15px;
+    color: red;
+    content: 'minimal input text is 4 symbols';
+}
+
+#pass
+{
+    margin-left: 101px;
+
+}
+
+.button
+{
+    width: 120px;
+    height: 20px;
+    margin-left: 25%;
+}
+
+.registration a
+{
+    margin-left: 2px;
+}
