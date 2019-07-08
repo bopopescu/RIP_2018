@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} Links {% endblock %}</title>
+</head>
+
+<body>
+    {% block body %}
+    <ul class="list-group col-2 mt-2 ml-1">
+        {% for link in links %}
+
+                <a href="{% url 'link_url' link.id %}">
+                    <li class="list-group-item list-group-item-action list-group-item-light text-center shadow-sm">
+                   {{ link.title }}  {% if link.id == 3 %} (last link) {% endif %}
+                    </li>
+                </a>
+
+        {% endfor %}
+    </ul>
+
+
+        <div class="button m1"> <a href="{% url 'goHere' %}">Go here </a></div>
+    {% endblock %}
+</body>
+</html>

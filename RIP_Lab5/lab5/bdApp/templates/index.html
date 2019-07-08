@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bD_APP</title>
+</head>
+<body>
+    <ul>
+    Objects of model Bottle
+    ...
+    {% for objects in obj %}
+        <li>{{ objects.name }} {{ objects.liter }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

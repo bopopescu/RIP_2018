@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} Link № {{ link.id }} {% endblock %}</title>
+</head>
+<body>
+    {% block body %}
+        <div class="col-2 mt-3 ml-2 h3">
+        Link page № {{ link.id }}
+        </div>
+
+
+        {% for link in links %}
+            {% include 'my.html' with link=link %}
+            {{ link }}
+        {% endfor %}
+    {% endblock %}
+</body>
+</html>ф
